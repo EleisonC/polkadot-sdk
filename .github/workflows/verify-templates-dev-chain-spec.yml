@@ -94,6 +94,7 @@ jobs:
         with:
           name: ${{ matrix.template.chain_spec_output }}
           path: ${{ matrix.template.chain_spec_output }}
+          overwrite: true
 
   verify-template-chain-specs:
     if: success()
