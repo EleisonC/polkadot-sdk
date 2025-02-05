@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - test-verify-templates-wf
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review, labeled]
   merge_group:
